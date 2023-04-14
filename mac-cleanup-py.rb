@@ -3,15 +3,21 @@ class MacCleanupPy < Formula
   
   desc "Python cleanup script for macOS"
   homepage "https://github.com/mac-cleanup/mac-cleanup-py"
-  url "https://github.com/mac-cleanup/mac-cleanup-py/archive/refs/tags/v2.2.5.tar.gz"
-  sha256 "dc17314afb2c3e2a7ff7399d4f3a36d786720a15f20b9c10e14d1599f4864fde"
+  url "https://github.com/mac-cleanup/mac-cleanup-py/archive/refs/tags/v3.0.0.tar.gz"
+  sha256 "981c9c1589fc01c512b8d52d77f62ad77e40d2341f5863b97e4f2f3933782720"
   license "Apache-2.0"
 
-  depends_on "python3"
+  depends_on "python@3.10"
 
+  
   resource "attrs" do
     url "https://files.pythonhosted.org/packages/21/31/3f468da74c7de4fcf9b25591e682856389b3400b4b62f201e65f15ea3e07/attrs-22.2.0.tar.gz"
     sha256 "c9227bfc2f01993c03f68db37d1d15c9690188323c067c641f1a35ca58185f99"
+  end
+
+  resource "beartype" do
+    url "https://files.pythonhosted.org/packages/ec/91/067ba8e805db88b8260308609959b5e124f01cebdb5346f147887a78dca0/beartype-0.13.1.tar.gz"
+    sha256 "2903947a8a1eb6030264e30108aa72cb1a805cfc9050c0f4014c4aed3a17a00b"
   end
 
   resource "blessed" do
@@ -20,8 +26,8 @@ class MacCleanupPy < Formula
   end
 
   resource "inquirer" do
-    url "https://files.pythonhosted.org/packages/5e/e6/12d65e1a78168741cd9a3a1bd47ee609493fe0be92cb6c94d96991cc6ecd/inquirer-2.10.1.tar.gz"
-    sha256 "e9876258183e24f6e8c44136b04f6f2e18dd6684aee59b86a8057c50601a6523"
+    url "https://files.pythonhosted.org/packages/1b/e3/e2998fad3add25dc7dad7decb8dcd92e71888d7e9514c647d0a461a7381c/inquirer-3.1.3.tar.gz"
+    sha256 "aac309406f5b49d4b8ab7c6872117f43bf082a552dc256aa16bc95e16bb58bec"
   end
 
   resource "markdown-it-py" do
@@ -35,8 +41,8 @@ class MacCleanupPy < Formula
   end
 
   resource "Pygments" do
-    url "https://files.pythonhosted.org/packages/da/6a/c427c06913204e24de28de5300d3f0e809933f376e0b7df95194b2bb3f71/Pygments-2.14.0.tar.gz"
-    sha256 "b3ed06a9e8ac9a9aae5a6f5dbe78a8a58655d17b43b93c078f094ddc476ae297"
+    url "https://files.pythonhosted.org/packages/03/98/c7468f5a1b434cb15b1d240c5f3bd015962af8a822e89e7f10ee11e68928/Pygments-2.15.0.tar.gz"
+    sha256 "f7e36cffc4c517fbc252861b9a6e4644ca0e5abadf9a113c72d1358ad09b9500"
   end
 
   resource "python-editor" do
@@ -45,13 +51,13 @@ class MacCleanupPy < Formula
   end
 
   resource "readchar" do
-    url "https://files.pythonhosted.org/packages/75/d1/eddb559d5911fd889f2ec0de052a88edd0fa8fc4746f29da0d384d29e10e/readchar-4.0.3.tar.gz"
-    sha256 "1d920d0e9ab76ec5d42192a68d15af2562663b5dfbf4a67cf9eba520e1ca57e6"
+    url "https://files.pythonhosted.org/packages/a1/57/439aaa28659e66265518232bf4291ae5568aa01cd9e0e0f6f8fe3b300e9e/readchar-4.0.5.tar.gz"
+    sha256 "08a456c2d7c1888cde3f4688b542621b676eb38cd6cfed7eb6cb2e2905ddc826"
   end
 
   resource "rich" do
-    url "https://files.pythonhosted.org/packages/68/31/b8934896818c885001aeb7df388ba0523ea3ec88ad31805983d9b0480a50/rich-13.3.1.tar.gz"
-    sha256 "125d96d20c92b946b983d0d392b84ff945461e5a06d3867e9f9e575f8697b67f"
+    url "https://files.pythonhosted.org/packages/31/3b/2360352760b436f822258396e66ffb6d42585518a9cde2f93f142e64c5eb/rich-13.3.4.tar.gz"
+    sha256 "b5d573e13605423ec80bdd0cd5f8541f7844a0e71a13f74cf454ccb2f490708b"
   end
 
   resource "six" do
