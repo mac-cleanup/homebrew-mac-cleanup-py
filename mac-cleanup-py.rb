@@ -3,16 +3,16 @@ class MacCleanupPy < Formula
   
   desc "Python cleanup script for macOS"
   homepage "https://github.com/mac-cleanup/mac-cleanup-py"
-  url "https://github.com/mac-cleanup/mac-cleanup-py/archive/refs/tags/v3.0.0.tar.gz"
-  sha256 "981c9c1589fc01c512b8d52d77f62ad77e40d2341f5863b97e4f2f3933782720"
+  url "https://github.com/mac-cleanup/mac-cleanup-py/archive/refs/tags/v3.0.1.tar.gz"
+  sha256 "54fffd88d5764c04c3c1d4403ccf7c0df004e05b995fc16909359cd744dc59e7"
   license "Apache-2.0"
 
   depends_on "python@3.10"
 
   
   resource "attrs" do
-    url "https://files.pythonhosted.org/packages/21/31/3f468da74c7de4fcf9b25591e682856389b3400b4b62f201e65f15ea3e07/attrs-22.2.0.tar.gz"
-    sha256 "c9227bfc2f01993c03f68db37d1d15c9690188323c067c641f1a35ca58185f99"
+    url "https://files.pythonhosted.org/packages/97/90/81f95d5f705be17872843536b1868f351805acf6971251ff07c1b8334dbb/attrs-23.1.0.tar.gz"
+    sha256 "6279836d581513a26f1bf235f9acd333bc9115683f14f7e8fae46c98fc50e015"
   end
 
   resource "beartype" do
@@ -41,8 +41,8 @@ class MacCleanupPy < Formula
   end
 
   resource "Pygments" do
-    url "https://files.pythonhosted.org/packages/03/98/c7468f5a1b434cb15b1d240c5f3bd015962af8a822e89e7f10ee11e68928/Pygments-2.15.0.tar.gz"
-    sha256 "f7e36cffc4c517fbc252861b9a6e4644ca0e5abadf9a113c72d1358ad09b9500"
+    url "https://files.pythonhosted.org/packages/89/6b/2114e54b290824197006e41be3f9bbe1a26e9c39d1f5fa20a6d62945a0b3/Pygments-2.15.1.tar.gz"
+    sha256 "8ace4d3c1dd481894b2005f560ead0f9f19ee64fe983366be1a21e171d12775c"
   end
 
   resource "python-editor" do
