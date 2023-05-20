@@ -3,8 +3,8 @@ class MacCleanupPy < Formula
   
   desc "Python cleanup script for macOS"
   homepage "https://github.com/mac-cleanup/mac-cleanup-py"
-  url "https://github.com/mac-cleanup/mac-cleanup-py/archive/refs/tags/v3.0.2.tar.gz"
-  sha256 "1ca06fc7e6276d9decb5ed4f34f9717fb961f29b0a8881c5cbdffd17d3910558"
+  url "https://github.com/mac-cleanup/mac-cleanup-py/archive/refs/tags/v3.0.3.tar.gz"
+  sha256 "1b7428fe3c52650411154ae62c9579a4ef233bde9ba936e648d4b059d7407044"
   license "Apache-2.0"
 
   depends_on "python@3.10"
