@@ -3,8 +3,8 @@ class MacCleanupPy < Formula
   
   desc "Python cleanup script for macOS"
   homepage "https://github.com/mac-cleanup/mac-cleanup-py"
-  url "https://github.com/mac-cleanup/mac-cleanup-py/archive/refs/tags/v3.0.3.tar.gz"
-  sha256 "1b7428fe3c52650411154ae62c9579a4ef233bde9ba936e648d4b059d7407044"
+  url "https://github.com/mac-cleanup/mac-cleanup-py/archive/refs/tags/v3.0.4.tar.gz"
+  sha256 "e478e8497a0422d71eda2206a35264f33dff694129593c8a2a41b8a82c1de436"
   license "Apache-2.0"
 
   depends_on "python@3.10"
@@ -16,8 +16,8 @@ class MacCleanupPy < Formula
   end
 
   resource "beartype" do
-    url "https://files.pythonhosted.org/packages/d2/62/29a4dcb5673e24b047139250a92816b7e51377d2e77b6c8dac06199008b6/beartype-0.14.0.tar.gz"
-    sha256 "546e6e8dcdda1d6d9f906ea4eb1518aa01c9c5f5a440e495917b2daf53cbd598"
+    url "https://files.pythonhosted.org/packages/89/3b/9ecfc75d1f8bb75cbdc87fcb3df7c6ec4bc8f7481cb7102859ade1736c9d/beartype-0.14.1.tar.gz"
+    sha256 "23df4715d19cebb2ce60e53c3cf44cd925843f00c71938222d777ea6332de3cb"
   end
 
   resource "blessed" do
@@ -31,8 +31,8 @@ class MacCleanupPy < Formula
   end
 
   resource "markdown-it-py" do
-    url "https://files.pythonhosted.org/packages/e4/c0/59bd6d0571986f72899288a95d9d6178d0eebd70b6650f1bb3f0da90f8f7/markdown-it-py-2.2.0.tar.gz"
-    sha256 "7c9a5e412688bc771c67432cbfebcdd686c93ce6484913dccf06cb5a0bea35a1"
+    url "https://files.pythonhosted.org/packages/38/71/3b932df36c1a044d397a1f92d1cf91ee0a503d91e470cbd670aa66b07ed0/markdown-it-py-3.0.0.tar.gz"
+    sha256 "e3f60a94fa066dc52ec76661e37c851cb232d92f9886b15cb560aaada2df8feb"
   end
 
   resource "mdurl" do
@@ -56,8 +56,8 @@ class MacCleanupPy < Formula
   end
 
   resource "rich" do
-    url "https://files.pythonhosted.org/packages/3d/0b/8dd34d20929c4b5e474db2e64426175469c2b7fea5ba71c6d4b3397a9729/rich-13.3.5.tar.gz"
-    sha256 "2d11b9b8dd03868f09b4fffadc84a6a8cda574e40dc90821bd845720ebb8e89c"
+    url "https://files.pythonhosted.org/packages/e3/12/67d0098eb77005f5e068de639e6f4cfb8f24e6fcb0fd2037df0e1d538fee/rich-13.4.2.tar.gz"
+    sha256 "d653d6bccede5844304c605d5aac802c7cf9621efd700b46c7ec2b51ea914898"
   end
 
   resource "six" do
